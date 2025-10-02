@@ -3,11 +3,11 @@
 :root{
     --cor-fundo: #f4f7f9; 
     --cor-container: #ffffff;
-    --cor-primaria: #007bff;
+    --cor-primaria: #000000;
     --cor-texto-principal: #333333;
     --cor-texto-secundario: #6c757d;
     --cor-borda: #dee2e6;
-    --fonte-principal: 'Popins', sans-serif;
+    --fonte-principal: 'Poppins', sans-serif;
 }
 
 
@@ -63,4 +63,9 @@ input, button{
     border-radius: 8px;
     border: 1px solid var(--cor-borda);
     transition: all 0.3s ease;
+}
+
+button{
+    background-color: var(--cor-primaria);
+    color: var(--cor-fundo);
 }
